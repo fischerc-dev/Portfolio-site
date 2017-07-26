@@ -7,7 +7,7 @@ layout: defaults
 <ul class="posts">
   {% for Blog in site.posts %}
   <li>
-    <a href="{{ base.url }}{{Blog.url}}">{{ Blog.title }}</a>
+    <a href="{{ site.baseurl }}{{Blog.url}}">{{ Blog.title }}</a>
     <p>{{ Blog.meta }}</p>
   </li>
 
