@@ -1,6 +1,6 @@
 ---
 layout: defaults-article
-title: Second Post
+title: New Blog Post
 meta: future blog posts in the works
 source:
 category: News

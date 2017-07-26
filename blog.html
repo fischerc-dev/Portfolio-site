@@ -1,15 +1,14 @@
 ---
-layout: defaults-article
+layout: defaults
 ---
 
 <strong>Blog</strong>
 
-<ul class="posts">
+<ul>
   {% for Blog in site.posts %}
   <li>
     <a href="{{ site.baseurl }}{{Blog.url}}">{{ Blog.title }}</a>
     <p>{{ Blog.meta }}</p>
   </li>
-
   {% endfor %}
 </ul>
