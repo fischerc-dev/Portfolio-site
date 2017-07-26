@@ -12,16 +12,10 @@ li {
 
 li a {
     display: block;
-    color: grey;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-  text-decoration: none;
-  color: grey;
 }
 
 strong {
