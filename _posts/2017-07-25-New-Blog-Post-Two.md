@@ -1,7 +1,7 @@
 ---
 layout: defaults-article
-title: New Blog Post
-meta: future blog posts in the works
+title: New content in Portfloio
+meta: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 source:
 category: News
 ---

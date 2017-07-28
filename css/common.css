@@ -27,3 +27,27 @@ li a:hover {
 strong {
   padding-left: 14px;
 }
+
+.list {
+  display: block;
+  margin-left: 200px;
+  list-style-type: none;
+  width: 500px;
+  align-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.blog-items {
+  padding-bottom: 30px;
+}
+
+.post {
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+
+.post:hover {
+  background-color: white;
+}
