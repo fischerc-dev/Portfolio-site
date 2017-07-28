@@ -29,25 +29,34 @@ strong {
 }
 
 .list {
-  display: block;
-  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 500px;
+  margin-left: 235px;
   list-style-type: none;
-  width: 500px;
-  align-content: center;
   padding-top: 20px;
-  padding-bottom: 10px;
-}
-
-.blog-items {
   padding-bottom: 30px;
 }
 
+
+.blog {
+  padding-bottom: 30px;
+  margin-left: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
 .post {
+  padding-left: 0px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   color: black;
   background-color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .post:hover {
-  background-color: white;
+  background-color: White;
 }
