@@ -1,3 +1,15 @@
+.container {
+  display: grid;
+  position: absolute;
+  width: 100%;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+p {
+  margin: 15%;
+}
+
 h3 {
   margin-left: 15px;
 }
@@ -27,20 +39,25 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: white;
   text-decoration: none;
   color: grey;
+  text-transform: uppercase;
 }
 
 strong {
   padding-left: 14px;
 }
 
+.meta {
+  margin-left: 0px;
+}
+
 .list {
   display: flex;
   flex-direction: column;
   flex-basis: 500px;
-  margin-left: 235px;
+  margin-left: 15%;
   list-style-type: none;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -51,7 +68,7 @@ strong {
   padding-bottom: 30px;
   margin-left: 0;
   font-family: 'Roboto', sans-serif;
-
+  font-weight: lighter;
 }
 
 .post {
@@ -63,8 +80,14 @@ strong {
   color: black;
   background-color: white;
   text-align: left;
+  font-weight: bold;
 }
 
 .post:hover {
   background-color: White;
+  text-transform: inherit;
+}
+
+span {
+  margin-left: 15%;
 }
